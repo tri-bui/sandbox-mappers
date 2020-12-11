@@ -16,5 +16,13 @@ let cityData = cities;
 
 // Add a marker for each city to the map
 cityData.forEach(city => {
-    L.marker(city.location).addTo(map);
+    L.circle(city.location, {
+        radius: city.population / 10,
+        color: 'red',
+        fillColor: 'red',
+        weight: 4
+    }).addTo(map);
+    L.marker(city.location).bindPopup(
+        `<h3>${city.city}, ${city.state}</h3><hr /><h3 align="center">${city.population.toLocaleString()}</h3>`
+    ).addTo(map);
 });
