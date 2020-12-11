@@ -20,4 +20,4 @@ L.circle([34.0522, -118.2437], {
 }).addTo(map);
 
 // Add marker for LAX to map
-L.marker([33.9416, -118.4085], {radius: 1e5}).addTo(map);
+L.marker([33.9416, -118.4085]).addTo(map);
