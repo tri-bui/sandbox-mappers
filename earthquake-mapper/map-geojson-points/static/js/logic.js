@@ -30,10 +30,16 @@ let sfo = {
         }, 
         "geometry": {
             "type": "Point",
-            "coordinates": [-122.375,37.61899948120117]
+            "coordinates": [-122.375, 37.61899948120117]
         }
     }
 ]};
 
 // Add a marker for SFO
-L.geoJSON(sfo).addTo(map);
+L.geoJSON(sfo, {pointToLayer: (feat, coords) => {
+    return L.marker(coords).bindPopup(
+        '<h2>' + feat.properties.name + '</h2><hr />' +
+        "<h2 align='center'>" + feat.properties.city + ', ' + 
+        feat.properties.country + '</h2>'
+    );
+}}).addTo(map);
