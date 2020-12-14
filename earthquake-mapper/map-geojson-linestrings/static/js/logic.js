@@ -1,8 +1,8 @@
 // Street layer
-let streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+let light = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
-    id: 'mapbox/streets-v11',
+    id: 'mapbox/light-v10',
     tileSize: 512,
     zoomOffset: -1,
     accessToken: MAPBOX_KEY
@@ -20,28 +20,22 @@ let dark = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?
 
 // Base layer holding both map layers
 let baseMaps = {
-    Street: streets,
+    Light: light,
     Dark: dark
 };
 
 
-// Map object with center of the world and a zoom level of 2
-let map = L.map('simple-map', {center: [30, 30], zoom: 2, layers: [streets]});
+// Map object with center of the Toronto and a zoom level of 2
+let map = L.map('simple-map', {center: [44.0, -80.0], zoom: 2, layers: [light]});
 
 // Add base layer to map
 L.control.layers(baseMaps).addTo(map);
 
 
 // Airport geoJSON data
-let airportData = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/earthquake-mapper/map-external-geojson/static/js/majorAirports.json';
+let airportData = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/earthquake-mapper/map-external-geojson/static/js/torontoRoutes.json';
 
 // Add airports to map
 d3.json(airportData).then(data => {
-    L.geoJSON(data, {onEachFeature: (feat, layer) => {
-        let props = feat.properties;
-        layer.bindPopup(
-            `<h3>${props.name} (${props.faa})</h3><hr />` + 
-            `<h3 align="center">${props.city}, ${props.country}</h3>`
-        );
-    }}).addTo(map);
+    L.geoJSON(data).addTo(map);
 });
