@@ -25,7 +25,7 @@ let baseMaps = {
 };
 
 
-// Map object with center of the Toronto and a zoom level of 2
+// Map object with center of the Toronto and a zoom level of 11
 let map = L.map('simple-map', {center: [43.7, -79.3], zoom: 11, layers: [streets]});
 
 // Add base layer to map
