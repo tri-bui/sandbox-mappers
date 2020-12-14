@@ -33,9 +33,18 @@ L.control.layers(baseMaps).addTo(map);
 
 
 // Airport geoJSON data
-let airportData = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/earthquake-mapper/map-external-geojson/static/js/torontoRoutes.json';
+let airportData = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/earthquake-mapper/map-geojson-linestrings/static/js/torontoRoutes.json';
 
 // Add airports to map
 d3.json(airportData).then(data => {
-    L.geoJSON(data).addTo(map);
+    L.geoJSON(data, {style: {
+        color: 'yellow',
+        weight: 2,
+        opacity: 0.5
+    }, onEachFeature: (feat, layer) => {
+        let props = feat.properties;
+        layer.bindPopup(
+            `<h2>${props.src} to ${props.dst} (${props.stops} stops)</h2>`
+        );
+    }}).addTo(map);
 });
