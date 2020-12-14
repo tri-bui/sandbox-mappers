@@ -16,22 +16,11 @@ let airportData = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/mai
 
 // Add airports to map
 d3.json(airportData).then(data => {
-    L.geoJSON(data).addTo(map);
+    L.geoJSON(data, {onEachFeature: (feat, layer) => {
+        let props = feat.properties;
+        layer.bindPopup(
+            `<h3>${props.name} (${props.faa})</h3><hr />` + 
+            `<h3 align="center">${props.city}, ${props.country}</h3>`
+        );
+    }}).addTo(map);
 });
-
-// // Add a marker with popup for SFO
-// L.geoJSON(sfo, {pointToLayer: (feat, coords) => {
-//     let props = feat.properties
-//     return L.marker(coords).bindPopup(
-//         '<h3>' + props.name + ' (' + props.faa + ')' + '</h3><hr />' +
-//         "<h3 align='center'>" + props.city + ', ' + props.country + '</h3>'
-//     );
-// }}).addTo(map);
-
-// // // Or using a different method
-// // L.geoJSON(sfo, {onEachFeature: (feat, layer) => {
-// //     layer.bindPopup(
-// //         '<h3>' + props.name + ' (' + props.faa + ')' + '</h3><hr />' +
-// //         "<h3 align='center'>" + props.city + ', ' + props.country + '</h3>'
-// //     );
-// // }}).addTo(map);
