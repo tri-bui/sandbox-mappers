@@ -32,11 +32,11 @@ let map = L.map('simple-map', {center: [44.0, -80.0], zoom: 2, layers: [light]})
 L.control.layers(baseMaps).addTo(map);
 
 
-// Airport geoJSON data
-let airportData = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/earthquake-mapper/map-geojson-linestrings/static/js/torontoRoutes.json';
+// Toronto routes geoJSON data
+let routes = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/earthquake-mapper/map-geojson-linestrings/static/js/torontoRoutes.json';
 
-// Add airports to map
-d3.json(airportData).then(data => {
+// Add Toronto routes to map
+d3.json(routes).then(data => {
     L.geoJSON(data, {style: {
         color: 'yellow',
         weight: 2,
