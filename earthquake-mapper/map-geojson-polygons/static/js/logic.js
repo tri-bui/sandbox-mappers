@@ -33,7 +33,7 @@ L.control.layers(baseMaps).addTo(map);
 
 
 // Toronto neighborhood geoJSON data
-let neighborhoods = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/earthquake-mapper/map-geojson-linestrings/static/js/torontoNeighborhoods.json';
+let neighborhoods = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/earthquake-mapper/map-geojson-polygons/static/js/torontoNeighborhoods.json';
 
 // Add Toronto neighborhoods to map
 d3.json(neighborhoods).then(data => {

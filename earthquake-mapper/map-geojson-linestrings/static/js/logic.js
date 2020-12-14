@@ -33,7 +33,7 @@ L.control.layers(baseMaps).addTo(map);
 
 
 // Toronto routes geoJSON data
-let routes = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/earthquake-mapper/map-geojson-polygons/static/js/torontoRoutes.json';
+let routes = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/earthquake-mapper/map-geojson-linestrings/static/js/torontoRoutes.json';
 
 // Add Toronto routes to map
 d3.json(routes).then(data => {
