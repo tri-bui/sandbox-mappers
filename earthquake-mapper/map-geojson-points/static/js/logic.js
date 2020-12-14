@@ -37,7 +37,7 @@ let sfo = {
 
 // Add a marker with popup for SFO
 L.geoJSON(sfo, {pointToLayer: (feat, coords) => {
-    let props = feat.properties
+    let props = feat.properties;
     return L.marker(coords).bindPopup(
         '<h3>' + props.name + ' (' + props.faa + ')' + '</h3><hr />' +
         "<h3 align='center'>" + props.city + ', ' + props.country + '</h3>'
@@ -46,6 +46,7 @@ L.geoJSON(sfo, {pointToLayer: (feat, coords) => {
 
 // // Or using a different method
 // L.geoJSON(sfo, {onEachFeature: (feat, layer) => {
+//     let props = feat.properties;
 //     layer.bindPopup(
 //         '<h3>' + props.name + ' (' + props.faa + ')' + '</h3><hr />' +
 //         "<h3 align='center'>" + props.city + ', ' + props.country + '</h3>'
