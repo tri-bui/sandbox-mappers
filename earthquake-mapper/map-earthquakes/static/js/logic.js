@@ -95,11 +95,11 @@ d3.json(earthquakes7d).then(data => {
 let legend = L.control({position: 'bottomright'});
 
 // Add legend to map
-legend.onAdd = map => {
+legend.onAdd = () => {
 
     // Create HTML div for legend
     let div = L.DomUtil.create('div', 'legend');
-    div.innerHTML = '<h4>Earthquake Magnitude</h4>';
+    div.innerHTML = '<h4 align="center">Earthquake<br />Magnitude</h4>';
 
     // Create legend labels
     for (let m = 0; m <= 5; m++) {
