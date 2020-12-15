@@ -24,12 +24,20 @@ let baseMaps = {
     'Satellite': satStreets
 };
 
+// Earthquake layer
+let earthquakes = new L.LayerGroup();
+
+// Map overlays
+let overlays = {
+  'Earthquakes': earthquakes
+};
+
 
 // Map object with center of the U.S.
 let map = L.map('simple-map', {center: [39.5, -98.5], zoom: 3, layers: [streets]});
 
 // Add base layer to map
-L.control.layers(baseMaps).addTo(map);
+L.control.layers(baseMaps, overlays).addTo(map);
 
 
 // Earthquakes geoJSON data
@@ -77,7 +85,8 @@ d3.json(earthquakes7d).then(data => {
             `<h2 align="center">Magnitude: ${props.mag}</h2><hr />` +
             `<h3>Location: ${props.place}</h3>`
         );
-    }}).addTo(map);
+    }}).addTo(earthquakes);
+    earthquakes.addTo(map);
 });
 
 
