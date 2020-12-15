@@ -4,3 +4,25 @@ html, body, #simple-map {
     padding: 0;
     margin: 0;
 }
+
+.legend {
+    background-color: #ddd;
+    border-radius: 16px;
+    padding: 16px;
+    line-height: 16px;
+}
+
+.legend h4 {
+    margin-top: 0;
+}
+
+.legend p {
+    margin-bottom: 0;
+}
+
+.legend i {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}

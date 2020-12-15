@@ -46,25 +46,26 @@ let earthquakes7d = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/a
 /**
  * Return a different color for the circle marker depending on the earthquake 
  * magnitude.
- * @param {*} mag - earthquake magnitude
+ * @param {number} mag - earthquake magnitude
+ * @return (str) - color hex code
  */
 function getColor(mag) {
     if (mag > 5) {
-      return "#ea2c2c";
+      return '#ea2c2c';
     }
     if (mag > 4) {
-      return "#ea822c";
+      return '#ea822c';
     }
     if (mag > 3) {
-      return "#ee9c00";
+      return '#ee9c00';
     }
     if (mag > 2) {
-      return "#eecc00";
+      return '#eecc00';
     }
     if (mag > 1) {
-      return "#d4ee00";
+      return '#d4ee00';
     }
-    return "#98ee00";
+    return '#98ee00';
 }
 
 // Add earthquakes to map
@@ -90,15 +91,23 @@ d3.json(earthquakes7d).then(data => {
 });
 
 
-// // Add Toronto neighborhoods to map
-// d3.json(neighborhoods).then(data => {
-//     L.geoJSON(data, {style: {
-//         color: 'red',
-//         fillColor: 'yellow',
-//         weight: 4,
-//         opacity: 0.8
-//     }, onEachFeature: (feat, layer) => {
-//         let props = feat.properties;
-//         layer.bindPopup(`<h2>${props.AREA_NAME}</h2>`);
-//     }}).addTo(map);
-// });
+// Legend object
+let legend = L.control({position: 'bottomright'});
+
+// Add legend to map
+legend.onAdd = map => {
+
+    // Create HTML div for legend
+    let div = L.DomUtil.create('div', 'legend');
+    div.innerHTML = '<h4>Earthquake Magnitude</h4>';
+
+    // Create legend labels
+    for (let m = 0; m <= 5; m++) {
+        div.innerHTML += `<p><i style="background: ${getColor(m)}"></i>` +
+            m + (m < 5 ? ` - ${m + 1}` : '+') + '</p>';
+    }
+
+    return div;
+};
+
+legend.addTo(map);
