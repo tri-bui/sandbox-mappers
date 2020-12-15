@@ -35,6 +35,30 @@ L.control.layers(baseMaps).addTo(map);
 // Earthquakes geoJSON data
 let earthquakes7d = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson';
 
+/**
+ * Return a different color for the circle marker depending on the earthquake 
+ * magnitude.
+ * @param {*} mag - earthquake magnitude
+ */
+function getColor(mag) {
+    if (mag > 5) {
+      return "#ea2c2c";
+    }
+    if (mag > 4) {
+      return "#ea822c";
+    }
+    if (mag > 3) {
+      return "#ee9c00";
+    }
+    if (mag > 2) {
+      return "#eecc00";
+    }
+    if (mag > 1) {
+      return "#d4ee00";
+    }
+    return "#98ee00";
+}
+
 // Add earthquakes to map
 d3.json(earthquakes7d).then(data => {
     L.geoJSON(data, {pointToLayer: (feat, coords) => {
@@ -45,8 +69,8 @@ d3.json(earthquakes7d).then(data => {
             radius: (props.mag + 0.2) * 5,
             stroke: true,
             weight: 0.5,
-            color: 'orange',
-            fillOpacity: 0.8
+            color: getColor(props.mag),
+            fillOpacity: 1
         }
 
         return L.circleMarker(coords, style).bindPopup(
