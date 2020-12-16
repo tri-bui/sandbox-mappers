@@ -75,10 +75,10 @@ var basemaps = {
 
 // Earthquake and tectonic plate layer
 var earthquakes = new L.LayerGroup();
-var plates = new L.LayerGroup();
+var boundaries = new L.LayerGroup();
 
 // Map overlays
 var overlays = {
   'Earthquakes': earthquakes,
-  'Tectonic Plates': plates
+  'Tectonic Plates': boundaries
 };
