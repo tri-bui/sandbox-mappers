@@ -26,14 +26,14 @@ let baseMaps = {
 
 
 // Map object with center of the Toronto and a zoom level of 2
-let map = L.map('simple-map', {center: [44.0, -80.0], zoom: 2, layers: [light]});
+let map = L.map('route-map', {center: [44.0, -80.0], zoom: 2, layers: [light]});
 
 // Add base layer to map
 L.control.layers(baseMaps).addTo(map);
 
 
 // Toronto routes geoJSON data
-let routes = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/earthquake-mapper/map-geojson-linestrings/static/js/torontoRoutes.json';
+let routes = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/leaflet-practice/map-geojson-linestrings/static/js/torontoRoutes.json';
 
 // Add Toronto routes to map
 d3.json(routes).then(data => {

@@ -26,14 +26,14 @@ let baseMaps = {
 
 
 // Map object with center of the Toronto and a zoom level of 11
-let map = L.map('simple-map', {center: [43.7, -79.3], zoom: 11, layers: [streets]});
+let map = L.map('nb-map', {center: [43.7, -79.3], zoom: 11, layers: [streets]});
 
 // Add base layer to map
 L.control.layers(baseMaps).addTo(map);
 
 
 // Toronto neighborhood geoJSON data
-let neighborhoods = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/earthquake-mapper/map-geojson-polygons/static/js/torontoNeighborhoods.json';
+let neighborhoods = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/leaflet-practice/map-geojson-polygons/static/js/torontoNeighborhoods.json';
 
 // Add Toronto neighborhoods to map
 d3.json(neighborhoods).then(data => {

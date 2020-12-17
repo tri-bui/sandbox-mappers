@@ -1,5 +1,5 @@
 // Map object with center of SFO and a zoom level of 10
-let map = L.map('simple-map').setView([37.5, -122.5], 10);
+let map = L.map('sfo-map').setView([37.5, -122.5], 10);
 
 // Add tile layer to map
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {

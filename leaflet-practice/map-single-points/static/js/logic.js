@@ -1,5 +1,5 @@
 // Map object with center of the Los Angeles, CA and a zoom level of 10
-let map = L.map('simple-map').setView([34.0522, -118.2437], 10);
+let map = L.map('la-map').setView([34.0522, -118.2437], 10);
 
 // Add tile layer to map
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {

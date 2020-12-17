@@ -1,5 +1,5 @@
 // Map object with center of the U.S. and a zoom level of 4
-let map = L.map('simple-map').setView([40.7, -94.5], 4);
+let map = L.map('city-map').setView([40.7, -94.5], 4);
 
 // Add tile layer to map
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
