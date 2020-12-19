@@ -12,12 +12,8 @@ html, body, #eq-map {
     line-height: 16px;
 }
 
-.legend h4 {
-    margin-top: 0;
-}
-
 .legend p {
-    margin-bottom: 0;
+    margin-bottom: 8px;
 }
 
 .legend i {

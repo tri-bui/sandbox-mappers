@@ -76,7 +76,7 @@ legend.onAdd = () => {
 
     // Create HTML div for legend
     let div = L.DomUtil.create('div', 'legend');
-    div.innerHTML = '<h4 align="center">Earthquake<br />Magnitude</h4>';
+    div.innerHTML = '<h6 align="center">Earthquake<br />Magnitude</h6>';
 
     // Create legend labels
     for (let m = 0; m <= 5; m++) {
