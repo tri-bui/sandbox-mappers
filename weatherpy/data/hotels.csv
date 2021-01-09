@@ -1,254 +1,65 @@
-ID,City,Country,Time,Latitude,Longitude,Max Temp,Humidity,Cloudiness,Wind Speed,Description,Rain,Snow,Hotel
-1,Vendas Novas,PT,2020-11-05 13:21:54,38.68,-8.46,63.0,59,20,14.99,few clouds,0.0,0.0,Hotel Acez
-3,Makakilo City,US,2020-11-05 13:21:55,21.35,-158.09,77.0,94,90,3.36,overcast clouds,0.0,0.0,Marriott's Ko Olina Beach Club
-4,Cap Malheureux,MU,2020-11-05 13:21:55,-19.98,57.61,75.99,66,21,8.99,few clouds,0.0,0.0,Pereybere Hotel & Spa
-6,Puerto Ayora,EC,2020-11-05 13:23:34,-0.74,-90.35,70.0,80,99,8.99,overcast clouds,0.0,0.0,Finch Bay Galapagos Hotel
-13,Rikitea,PF,2020-11-05 13:23:17,-23.12,-134.97,73.67,67,93,8.57,overcast clouds,0.0,0.0,Pension Maro'i
-15,Khani,GE,2020-11-05 13:21:58,41.96,42.96,71.6,60,90,9.17,overcast clouds,0.0,0.0,კურორტი ზეკარი/Resort Zekari
-21,Aktau,KZ,2020-11-05 13:22:00,43.65,51.2,68.0,20,0,11.18,clear sky,0.0,0.0,Silk Way Hotel
-22,Jalu,LY,2020-11-05 13:22:00,29.03,21.55,77.58,36,0,12.88,clear sky,0.0,0.0,Jalu Hotel
-23,São Filipe,CV,2020-11-05 13:22:00,14.9,-24.5,77.86,71,90,3.94,overcast clouds,0.0,0.0,Tortuga B&B
-27,Vaini,TO,2020-11-05 13:22:01,-21.2,-175.2,73.4,83,20,10.29,few clouds,0.0,0.0,Keleti Beach Resort
-28,Ponta do Sol,PT,2020-11-05 13:22:01,32.67,-17.1,64.4,68,40,11.41,light intensity shower rain,0.0,0.0,Hotel do Campo
-29,Hilo,US,2020-11-05 13:20:56,19.73,-155.09,71.6,78,40,4.7,scattered clouds,0.0,0.0,Hilo Hawaiian Hotel
-31,Saint-Pierre,RE,2020-11-05 13:20:57,-21.34,55.48,78.01,61,20,18.34,few clouds,0.0,0.0,Lindsey Hôtel
-33,California City,US,2020-11-05 13:22:03,35.13,-117.99,61.0,30,20,9.17,few clouds,0.0,0.0,Best Western California City Inn & Suites
-36,Busselton,AU,2020-11-05 13:17:46,-33.65,115.33,69.01,33,26,13.82,scattered clouds,0.0,0.0,Observatory Guest House
-37,Rivadavia,AR,2020-11-05 13:17:36,-33.19,-68.46,68.0,20,0,17.22,clear sky,0.0,0.0,Posada Del Fin Del Mundo
-38,Taltal,CL,2020-11-05 13:22:04,-25.4,-70.48,65.21,56,0,5.12,clear sky,0.0,0.0,Residencial Karime
-43,Hermanus,ZA,2020-11-05 13:19:37,-34.42,19.23,71.01,74,51,3.0,broken clouds,0.0,0.0,Misty Waves Boutique Hotel
-44,East London,ZA,2020-11-05 13:22:05,-33.02,27.91,75.2,83,40,11.41,scattered clouds,0.0,0.0,Tu Casa
-46,Kruisfontein,ZA,2020-11-05 13:22:06,-34.0,24.73,73.67,66,100,11.36,overcast clouds,0.0,0.0,Oyster Bay House Rental
-53,Saint-Philippe,RE,2020-11-05 13:22:07,-21.36,55.77,78.01,61,20,18.34,few clouds,0.0,0.0,"Chambres d'hôte ""La Trinité"""
-60,Kapaa,US,2020-11-05 13:22:09,22.08,-159.32,71.6,100,20,9.17,few clouds,0.0,0.0,Sheraton Kauai Resort at Coconut Beach
-65,Chui,UY,2020-11-05 13:22:10,-33.7,-53.46,67.41,63,3,12.33,clear sky,0.0,0.0,Nuevo Hotel Plaza
-79,Tomatlán,MX,2020-11-05 13:22:14,19.93,-105.25,68.99,63,0,3.02,clear sky,0.0,0.0,Norma franco
-80,Avarua,CK,2020-11-05 13:22:05,-21.21,-159.78,71.6,88,100,8.05,light rain,0.0,0.0,Paradise Inn
-82,Lázaro Cárdenas,MX,2020-11-05 13:18:21,17.96,-102.2,74.12,73,98,5.28,overcast clouds,0.0,0.0,Collection O Hotel Quinta Antigua
-86,Grand Gaube,MU,2020-11-05 13:22:16,-20.01,57.66,75.99,66,17,8.99,few clouds,0.0,0.0,Veranda Paul et Virginie Hotel & Spa
-92,Tura,IN,2020-11-05 13:22:17,25.52,90.22,62.28,62,0,1.95,clear sky,0.0,0.0,Hotel RIKMAN Continental
-94,Cape Town,ZA,2020-11-05 13:17:58,-33.93,18.42,75.0,64,40,19.46,scattered clouds,0.0,0.0,Southern Sun Waterfront Cape Town
-97,Tautira,PF,2020-11-05 13:22:19,-17.73,-149.15,78.8,74,75,12.75,broken clouds,0.0,0.0,Pension Oaoa
-98,Saint Lawrence,MT,2020-11-05 13:22:19,36.06,14.2,70.0,77,40,3.36,scattered clouds,0.0,0.0,San Andrea Hotel
-104,Mar del Plata,AR,2020-11-05 13:21:22,-38.0,-57.56,62.6,63,0,18.34,clear sky,0.0,0.0,Gran Hotel Mar del Plata habitaciones
-106,Aljezur,PT,2020-11-05 13:22:21,37.32,-8.8,63.95,63,100,9.93,overcast clouds,0.0,0.0,Amazigh Hostel
-109,Faya,SA,2020-11-05 13:22:21,18.39,42.45,69.8,60,40,9.17,scattered clouds,0.0,0.0,مقبرة ال مجمل
-110,Barra de Tecoanapa,MX,2020-11-05 13:22:21,16.52,-98.75,72.52,58,100,4.41,overcast clouds,0.0,0.0,Hotel Manglares
-111,Sayyan,YE,2020-11-05 13:22:22,15.17,44.32,69.75,21,0,2.73,clear sky,0.0,0.0,الاستاذة مروى اليوسفي
-112,Collie,AU,2020-11-05 13:22:22,-33.37,116.15,69.01,33,21,12.12,few clouds,0.0,0.0,Collie Ridge
-113,Hualmay,PE,2020-11-05 13:22:22,-11.1,-77.61,64.42,74,57,7.96,broken clouds,0.0,0.0,Hotel Restaurant Turístico Casablanca
-116,Mahébourg,MU,2020-11-05 13:22:23,-20.41,57.7,77.0,61,40,9.17,scattered clouds,0.0,0.0,Shandrani Beachcomber Resort & Spa
-125,Río Tercero,AR,2020-11-05 13:27:46,-32.17,-64.11,71.01,22,0,8.01,clear sky,0.0,0.0,Hospedaje Las Violetas
-130,Rawson,AR,2020-11-05 13:27:47,-43.3,-65.1,62.2,34,0,23.38,clear sky,0.0,0.0,Hotel Punta León
-132,Sambava,MG,2020-11-05 13:27:48,-14.27,50.17,79.79,72,100,13.18,overcast clouds,0.0,0.0,Melrose
-136,Quatre Cocos,MU,2020-11-05 13:27:49,-20.21,57.76,77.0,61,40,9.17,scattered clouds,0.0,0.0,Emeraude Beach Attitude Hotel
-137,San Andrés,CO,2020-11-05 13:27:49,12.58,-81.7,77.0,100,75,2.24,broken clouds,0.0,0.0,Hotel Arena Blanca
-148,Fukuechō,JP,2020-11-05 13:27:51,32.69,128.84,64.35,43,26,5.21,scattered clouds,0.0,0.0,Goto Guesthouse Utojuku & SA Car Rental
-150,Port Elizabeth,ZA,2020-11-05 13:27:28,-33.92,25.57,71.6,88,40,3.36,light rain,0.0,0.0,39 On Nile Guest House
-151,Les Cayes,HT,2020-11-05 13:27:52,18.2,-73.75,79.21,79,92,2.17,overcast clouds,0.0,0.0,Villa Orphee
-154,Arraial do Cabo,BR,2020-11-05 13:27:53,-22.97,-42.03,75.2,73,40,10.29,scattered clouds,0.0,0.0,Pousada Porto Praia
-159,Ambovombe,MG,2020-11-05 13:27:54,-25.17,46.08,79.32,65,97,10.36,overcast clouds,0.0,0.0,MONJA Talilisoa
-160,Cascavel,BR,2020-11-05 13:26:48,-24.96,-53.46,77.0,56,0,16.11,clear sky,0.0,0.0,Copas Executive Hotel
-162,Yulara,AU,2020-11-05 13:27:55,-25.24,130.99,78.8,27,29,8.05,scattered clouds,0.0,0.0,Desert Gardens Hotel - Ayers Rock Resort
-164,Reconquista,AR,2020-11-05 13:27:55,-29.15,-59.65,68.79,44,21,12.46,few clouds,0.0,0.0,Grand Hotel
-168,Rodolfo Sánchez Taboada,MX,2020-11-05 13:27:56,31.72,-116.57,72.57,25,97,8.28,overcast clouds,0.0,0.0,Casa De Thompson
-172,Ribeira Grande,PT,2020-11-05 13:27:57,38.52,-28.7,62.6,72,40,19.46,scattered clouds,0.0,0.0,Quinta da Meia Eira
-173,Bredasdorp,ZA,2020-11-05 13:27:57,-34.53,20.04,73.4,69,40,5.82,scattered clouds,0.0,0.0,Bredasdorp Country Manor
-175,Oro Valley,US,2020-11-05 13:27:57,32.39,-110.97,64.0,25,1,8.05,clear sky,0.0,0.0,"El Conquistador Tucson, A Hilton Resort"
-176,Poum,NC,2020-11-05 13:27:58,-20.23,164.02,76.75,79,93,7.61,overcast clouds,0.0,0.0,Gîte kajeon
-182,São João da Barra,BR,2020-11-05 13:27:59,-21.64,-41.05,77.0,69,75,9.17,broken clouds,0.0,0.0,Pousada Porto De Canoas
-193,San Martín,AR,2020-11-05 13:28:02,-33.08,-68.47,68.0,20,0,17.22,clear sky,0.0,0.0,Finca Vivencias
-194,Faanui,PF,2020-11-05 13:28:02,-16.48,-151.75,78.8,83,69,11.59,broken clouds,0.0,0.0,Bora-Bora Pearl Beach Resort & Spa
-200,Morro Bay,US,2020-11-05 13:27:18,35.37,-120.85,71.6,34,1,6.93,clear sky,0.0,0.0,Inn at Morro Bay
-201,Kumluca,TR,2020-11-05 13:28:03,36.37,30.29,73.47,41,67,2.77,broken clouds,0.0,0.0,TurkuazKöy
-208,Gigmoto,PH,2020-11-05 13:28:05,13.78,124.39,79.18,82,100,4.16,overcast clouds,0.0,0.0,Cj's Travellers Inn
-211,Ilo,PE,2020-11-05 13:28:05,-17.64,-71.34,64.4,82,0,8.05,clear sky,0.0,0.0,Torreblanca Hotel
-214,Coquimbo,CL,2020-11-05 13:24:40,-29.95,-71.34,60.8,72,0,4.7,clear sky,0.0,0.0,Hotel San Juan
-220,Taunggyi,MM,2020-11-05 13:28:07,20.78,97.03,61.77,99,0,0.74,clear sky,0.0,0.0,True Treasure Hotel
-223,Souillac,MU,2020-11-05 13:28:08,-20.52,57.52,77.0,61,40,9.17,scattered clouds,0.0,0.0,Bils' Villa
-227,Kahului,US,2020-11-05 13:28:09,20.89,-156.47,75.2,73,1,4.7,clear sky,0.0,0.0,Maui Seaside Hotel
-229,Vao,NC,2020-11-05 13:28:09,-22.67,167.48,73.81,85,3,10.58,clear sky,0.0,0.0,Hotel Kou-Bugny
-230,Carnarvon,AU,2020-11-05 13:28:09,-24.87,113.63,71.6,94,40,16.11,scattered clouds,0.0,0.0,Hospitality Carnarvon
-233,Provincia di Campobasso,IT,2020-11-05 13:28:10,41.63,14.58,64.0,81,100,5.68,overcast clouds,0.0,0.0,Le Casette al Colle
-240,Muisne,EC,2020-11-05 13:28:11,0.6,-80.03,73.85,81,100,9.71,overcast clouds,0.0,0.0,Quinta Samay
-243,Alofi,NU,2020-11-05 13:28:12,-19.06,-169.92,73.4,83,10,10.29,clear sky,0.0,0.0,Taloa Heights
-245,Belmonte,BR,2020-11-05 13:28:12,-15.86,-38.88,73.4,88,90,6.93,overcast clouds,0.0,0.0,Pousada Monte Carmelo O Pão
-259,Itaqui,BR,2020-11-05 13:27:06,-29.13,-56.55,65.57,56,100,16.42,overcast clouds,0.0,0.0,Biasi
-262,Mulegé,MX,2020-11-05 13:28:16,26.88,-111.98,72.63,44,44,5.64,scattered clouds,0.0,0.0,Casa Granada
-265,Chicama,PE,2020-11-05 13:28:17,-7.84,-79.15,60.8,87,90,9.17,mist,0.0,0.0,Hospedaje Punta Cana PERU
-267,Mahina,PF,2020-11-05 13:28:17,-17.51,-149.49,78.8,74,75,12.75,broken clouds,0.0,0.0,Guest Beach Bungalow Tahiti
-268,Lang Son,VN,2020-11-05 13:27:43,21.83,106.73,70.02,78,100,1.79,overcast clouds,0.0,0.0,Khai Nga Hotel
-270,Hong Kong,HK,2020-11-05 13:25:24,22.29,114.16,73.0,77,0,5.01,clear sky,0.0,0.0,Mini Hotel Central
-278,Salta,AR,2020-11-05 13:26:16,-24.79,-65.41,75.2,33,0,9.17,clear sky,0.0,0.0,Hotel Alejandro I
-280,Jiangyou,CN,2020-11-05 13:28:20,31.77,104.72,60.19,54,89,1.41,overcast clouds,0.0,0.0,Shangping Shuyuan Inn
-283,Dicabisagan,PH,2020-11-05 13:28:21,17.08,122.42,77.22,82,98,3.65,overcast clouds,0.0,0.0,Nancy Montanes Bernardo
-290,Airai,TL,2020-11-05 13:28:22,-8.93,125.41,64.96,74,71,1.19,broken clouds,0.0,0.0,Juvinal Martin
-303,Chalisgaon,IN,2020-11-05 13:28:25,20.47,75.02,79.36,30,0,6.46,clear sky,0.0,0.0,Pedkai Co-operative Housing Society
-306,San Patricio,US,2020-11-05 13:28:26,28.02,-97.52,66.2,100,40,4.7,fog,0.0,0.0,"Motel 6 Sinton, TX"
-308,Guerrero Negro,MX,2020-11-05 13:28:26,27.98,-114.06,67.35,64,61,3.65,broken clouds,0.0,0.0,"Casa Laguna, Bed & Breakfast"
-309,Wadi Maliz,TN,2020-11-05 13:28:26,36.47,8.55,78.8,39,20,4.7,few clouds,0.0,0.0,HOPITAL
-310,Province of Mantua,IT,2020-11-05 13:28:27,45.17,10.78,66.0,76,1,1.01,clear sky,0.0,0.0,Hotel la Favorita
-319,San Cristobal,VE,2020-11-05 13:28:28,7.77,-72.22,75.2,94,40,2.24,fog,0.0,0.0,Pirineos
-321,Vila Velha,BR,2020-11-05 13:23:37,-20.33,-40.29,78.8,69,40,4.7,scattered clouds,0.0,0.0,Hotel Vitória Palace
-322,Praia da Vitória,PT,2020-11-05 13:28:29,38.73,-27.07,63.0,67,40,23.71,scattered clouds,0.0,0.0,Hotel Branco I
-327,Biak,ID,2020-11-05 13:28:30,-0.91,122.88,79.25,78,2,1.68,clear sky,0.0,0.0,Kost Ariz
-329,Havelock,US,2020-11-05 13:28:30,34.88,-76.9,64.0,84,70,4.79,broken clouds,0.0,0.0,Sherwood Motel
-340,Geraldton,AU,2020-11-05 13:28:34,-28.77,114.6,69.8,77,0,16.11,clear sky,0.0,0.0,Broadwater Mariner Resort
-344,Nador,MA,2020-11-05 13:25:12,35.17,-2.93,78.8,53,20,5.82,few clouds,0.0,0.0,Airport hotel
-345,Barcelos,PT,2020-11-05 13:28:35,41.54,-8.62,64.4,59,0,14.99,clear sky,0.0,0.0,Hotel Do Terço
-349,Sandūr,IN,2020-11-05 13:28:36,15.1,76.55,74.53,46,0,6.67,clear sky,0.0,0.0,"WelcomHeritage Shivavilas Palace Hotel, HAMPI"
-362,Sarishābāri,BD,2020-11-05 13:28:39,24.73,89.83,76.44,47,0,5.77,clear sky,0.0,0.0,Miraj Hasan Mehedi
-371,Puri,IN,2020-11-05 13:28:41,19.8,85.85,78.8,65,20,4.7,haze,0.0,0.0,OYO 1577 Hotel Shree Hari Grand
-375,Aguilares,AR,2020-11-05 13:28:42,-27.43,-65.61,71.01,33,0,11.01,clear sky,0.0,0.0,La Guarida del Lobo
-376,Santiago del Estero,AR,2020-11-05 13:27:58,-27.8,-64.26,78.08,30,0,11.88,clear sky,0.0,0.0,Hotel Urbano
-378,Brezovo,BG,2020-11-05 13:28:42,42.35,25.08,60.8,44,75,4.7,broken clouds,0.0,0.0,"Хотел ""KISS"" - град Брезово"
-383,Nouadhibou,MR,2020-11-05 13:28:43,20.93,-17.03,78.8,61,31,5.82,scattered clouds,0.0,0.0,El Medina
-384,Neiafu,TO,2020-11-05 13:28:44,-18.65,-173.98,75.2,83,20,8.05,few clouds,0.0,0.0,Mystic Sands
-385,Antalaha,MG,2020-11-05 13:28:44,-14.9,50.28,79.32,71,95,12.71,overcast clouds,0.0,0.0,Hotel Vitasoa
-391,Cabo San Lucas,MX,2020-11-05 13:25:06,22.89,-109.91,69.8,60,5,9.17,clear sky,0.0,0.0,Hotel Tesoro Los Cabos
-401,Noumea,NC,2020-11-05 13:26:57,-22.28,166.46,71.6,94,0,2.24,clear sky,0.0,0.0,Hôtel Le Lagon
-408,Beşikdüzü,TR,2020-11-05 13:28:48,41.05,39.23,66.2,77,75,3.36,broken clouds,0.0,0.0,YKT
-413,Puerto Escondido,MX,2020-11-05 13:28:49,15.85,-97.07,69.8,88,40,6.93,scattered clouds,0.0,0.0,Aldea del Bazar Hotel and Spa
-417,Carupano,VE,2020-11-05 13:28:51,10.67,-63.26,79.99,77,49,5.73,scattered clouds,0.0,0.0,Hotel La dorada
-422,Ballina,AU,2020-11-05 13:28:52,-28.87,153.57,68.0,82,75,6.93,broken clouds,0.0,0.0,Ramada Hotel & Suites by Wyndham Ballina Byron
-427,Bikramganj,IN,2020-11-05 13:28:53,25.2,84.25,70.45,39,0,2.1,clear sky,0.0,0.0,Hotel Jairam
-434,Vila Franca do Campo,PT,2020-11-05 13:28:55,37.72,-25.43,64.99,67,40,14.99,shower rain,0.0,0.0,Pestana Bahia Praia
-442,Lárdos,GR,2020-11-05 13:28:56,36.09,28.02,71.6,56,20,16.11,few clouds,0.0,0.0,Lindos Princess Beach Hotel
-448,Departamento de Maldonado,UY,2020-11-05 13:28:58,-34.67,-54.92,68.0,68,75,10.29,broken clouds,0.0,0.0,La Cimarrona
-454,Saldanha,ZA,2020-11-05 13:28:59,-33.01,17.94,71.6,85,75,17.22,broken clouds,0.0,0.0,Blue Bay Lodge
-457,Oga,IT,2020-11-05 13:29:00,46.46,10.35,63.0,61,0,2.24,clear sky,0.0,0.0,QC Terme Bagni di Bormio Bagni Nuovi
-459,Fayaoué,NC,2020-11-05 13:29:00,-20.65,166.53,76.73,83,0,6.4,clear sky,0.0,0.0,Chez Dydyce Guesthouse
-460,Ixtapa,MX,2020-11-05 13:29:01,20.7,-105.2,71.01,88,75,3.29,broken clouds,0.0,0.0,Container Inn Puerto Vallarta
-464,San Quintín,MX,2020-11-05 13:29:02,30.48,-115.95,65.71,63,100,2.1,overcast clouds,0.0,0.0,Old Mill Hotel
-466,Sola,VU,2020-11-05 13:29:02,-13.88,167.55,78.8,94,40,12.35,scattered clouds,0.0,0.0,Ulkel Guest House
-471,Masakin,TN,2020-11-05 13:29:03,35.73,10.58,75.2,69,0,8.05,clear sky,0.0,0.0,DAR EL ANDALOUS Guest house
-472,Rocha,UY,2020-11-05 13:24:44,-34.48,-54.33,67.84,62,40,11.21,scattered clouds,0.0,0.0,Beleza Pura B&B
-473,San Gavino Monreale,IT,2020-11-05 13:29:04,39.55,8.79,73.4,53,20,3.36,few clouds,0.0,0.0,HOTEL CROCUS
-477,Ormond Beach,US,2020-11-05 13:27:40,29.29,-81.06,77.0,78,40,8.05,scattered clouds,0.0,0.0,Royal Floridian Resort By Spinnaker Resorts
-485,Sakakah,SA,2020-11-05 13:29:06,29.97,40.21,78.8,26,0,8.05,clear sky,0.0,0.0,Fakhamat Al Orjoana Apartment
-500,Kaeo,NZ,2020-11-05 13:29:09,-35.1,173.78,64.0,95,31,3.0,scattered clouds,0.0,0.0,Bushido Lodge
-501,Pisco,PE,2020-11-05 13:29:10,-13.7,-76.22,62.6,88,90,2.24,mist,0.0,0.0,Hostal San Isidro Oficial
-503,Ahipara,NZ,2020-11-05 13:29:10,-35.17,173.17,62.06,95,35,6.24,scattered clouds,0.0,0.0,Ahipara Holiday Park
-506,Santa Fe,AR,2020-11-05 13:28:31,-31.63,-60.7,73.0,38,0,11.01,clear sky,0.0,0.0,Conquistador Hotel
-507,Erzin,TR,2020-11-05 13:26:26,36.96,36.2,66.99,71,93,3.27,overcast clouds,0.0,0.0,Artemis Otel
-512,Puerto Madryn,AR,2020-11-05 13:29:12,-42.77,-65.04,63.09,33,0,24.63,clear sky,0.0,0.0,Hotel Tolosa
-519,Rūdsar,IR,2020-11-05 13:29:13,37.14,50.29,69.8,83,90,2.24,mist,0.0,0.0,Hotel Bahar
-537,Governador Valadares,BR,2020-11-05 13:29:17,-18.85,-41.95,73.33,78,100,2.39,overcast clouds,0.0,0.0,Hotel Panorama
-539,Elizabeth City,US,2020-11-05 13:29:18,36.29,-76.25,60.8,93,1,3.36,clear sky,0.0,0.0,Hampton Inn Elizabeth City
-543,Bambous Virieux,MU,2020-11-05 13:29:18,-20.34,57.76,77.0,61,40,9.17,scattered clouds,0.0,0.0,Casa Tia Villa
-546,Los Llanos de Aridane,ES,2020-11-05 13:29:19,28.66,-17.92,73.4,56,40,5.82,scattered clouds,0.0,0.0,Valle Aridane
-547,Kirakira,SB,2020-11-05 13:29:19,-10.45,161.92,79.34,82,100,3.53,overcast clouds,0.0,0.0,SanBiz Lodge
-551,Ponta Delgada,PT,2020-11-05 13:29:20,37.73,-25.67,64.99,67,40,14.99,shower rain,0.0,0.0,Vila Nova Hotel
-557,Along,IN,2020-11-05 13:29:21,28.17,94.77,61.81,86,23,2.55,few clouds,0.0,0.0,Hotel West
-558,Morant Bay,JM,2020-11-05 13:29:21,17.88,-76.41,75.99,88,75,8.05,broken clouds,0.0,0.0,Whispering Bamboo Cove Resort
-560,Port Antonio,JM,2020-11-05 13:29:22,18.18,-76.46,75.99,88,75,8.05,broken clouds,0.0,0.0,Trident Hotel
-572,Plettenberg Bay,ZA,2020-11-05 13:29:24,-34.05,23.37,70.32,74,100,4.41,overcast clouds,0.0,0.0,Thanda Vista B&B
-573,Syracuse,IT,2020-11-05 13:29:24,37.09,15.28,71.6,68,20,5.82,few clouds,0.0,0.0,Hotel Posta
-575,Lanquín,GT,2020-11-05 13:29:25,15.57,-89.97,62.6,100,75,6.93,light rain,0.0,0.0,Yaxlik River Lodge
-581,Assiut,EG,2020-11-05 13:29:26,27.18,31.18,78.8,47,0,16.11,clear sky,0.0,0.0,Florence Hotel Assiut
-596,Sirte,LY,2020-11-05 13:29:29,31.21,16.59,73.26,62,7,10.07,clear sky,0.0,0.0,City Hotel
-597,Grand Baie,MU,2020-11-05 13:29:29,-20.02,57.58,75.99,69,31,8.99,scattered clouds,0.0,0.0,Trou aux Biches Beachcomber Golf Resort & Spa
-598,Mālpur,IN,2020-11-05 13:29:30,23.35,73.45,79.07,35,0,4.97,clear sky,0.0,0.0,મંગલ મૈત્રી ફાર્મ Mangal Maitri Farm
-602,Reque,PE,2020-11-05 13:29:31,-6.87,-79.82,64.4,77,90,5.82,overcast clouds,0.0,0.0,Villas de Bouganville
-608,Isangel,VU,2020-11-05 13:29:32,-19.55,169.27,76.5,84,0,4.81,clear sky,0.0,0.0,Volcano Sea View Tree House
-617,Bibbiena,IT,2020-11-05 13:29:34,43.7,11.81,60.01,72,75,1.99,broken clouds,0.0,0.0,Hotel Borgo Antico
-619,Goma,CD,2020-11-05 13:29:35,-1.68,29.22,73.4,69,75,4.7,thunderstorm with light rain,0.0,0.0,"Goma, CENTRE D'ACCUEIL CARITAS"
-632,Upata,VE,2020-11-05 13:29:37,8.01,-62.4,73.99,97,0,5.23,clear sky,0.0,0.0,Posada Villa Nela
-653,Dalby,AU,2020-11-05 13:29:42,-27.18,151.27,64.99,33,0,17.25,clear sky,0.0,0.0,Kobbers Motor Inn Dalby
-655,Boa Vista,BR,2020-11-05 13:26:38,2.82,-60.67,77.0,83,75,4.7,broken clouds,0.0,0.0,Aipana Plaza Hotel
-658,Byron Bay,AU,2020-11-05 13:29:43,-28.65,153.62,68.0,82,75,6.93,broken clouds,0.0,0.0,Backpackers Inn on the Beach
-662,San Juan,AR,2020-11-05 13:29:35,-31.54,-68.54,71.08,36,0,28.68,clear sky,0.0,0.0,Hotel Provincial
-672,Dhenkānāl,IN,2020-11-05 13:29:46,20.67,85.6,78.8,65,20,4.7,haze,0.0,0.0,Sai Residency
-680,Dingle,PH,2020-11-05 13:29:48,11.0,122.67,75.25,90,0,2.86,clear sky,0.0,0.0,SEGAYA PROPERTY
-681,Altagracia de Orituco,VE,2020-11-05 13:29:48,9.86,-66.38,76.35,87,58,2.1,broken clouds,0.0,0.0,Posada Quinta Mi Refugio
-682,Cairns,AU,2020-11-05 13:27:19,-16.92,145.77,72.0,88,19,3.36,few clouds,0.0,0.0,Mantra Trilogy Cairns
-684,Pacifica,US,2020-11-05 13:28:26,37.61,-122.49,61.0,87,20,4.7,few clouds,0.0,0.0,"Pacifica Lighthouse, Trademark Collection by Wyndham"
-687,Mareeba,AU,2020-11-05 13:29:49,-17.0,145.43,72.0,88,9,3.36,clear sky,0.0,0.0,Trinity Plains Tourist Park
-702,Marawi,PH,2020-11-05 13:29:52,8.0,124.29,75.99,94,100,1.77,overcast clouds,0.0,0.0,Derogongan Residence
-716,Mahon,ES,2020-11-05 13:29:56,39.89,4.27,68.0,68,40,13.87,scattered clouds,0.0,0.0,ARTIEM Capri
-722,Gorgan,IR,2020-11-05 13:26:49,36.84,54.43,73.4,56,75,4.32,broken clouds,0.0,0.0,Khayyam Motel
-723,Pangai,TO,2020-11-05 13:29:58,-19.8,-174.35,75.2,83,17,19.46,few clouds,0.0,0.0,Ha'apai Beach Resort
-729,Acapulco de Juárez,MX,2020-11-05 13:29:38,16.86,-99.89,75.2,69,40,8.05,scattered clouds,0.0,0.0,HS Hotsson Smart Acapulco
-731,Zalţan,LY,2020-11-05 13:29:59,32.95,11.87,77.2,47,97,10.11,overcast clouds,0.0,0.0,زلطن الشرقية
-735,Port Macquarie,AU,2020-11-05 13:30:00,-31.43,152.92,60.01,69,43,1.01,scattered clouds,0.0,0.0,Rydges Port Macquarie
-737,Boaco,NI,2020-11-05 13:30:01,12.47,-85.66,73.4,94,40,3.8,scattered clouds,0.0,0.0,Posada El Bailante
-739,Boyolangu,ID,2020-11-05 13:30:03,-8.12,111.89,78.03,87,100,4.54,overcast clouds,0.0,0.0,Yos ega cv
-746,Marsh Harbour,BS,2020-11-05 13:30:10,26.54,-77.06,78.22,75,77,27.58,broken clouds,0.0,0.0,Abaco Beach Resort
-748,Agüimes,ES,2020-11-05 13:30:11,27.91,-15.45,71.01,68,75,11.41,broken clouds,0.0,0.0,Hotel Villa de Aguimes
-749,Marolambo,MG,2020-11-05 13:30:11,-20.05,48.12,76.6,66,0,6.58,clear sky,0.0,0.0,local guide suport centre
-750,Shakiso,ET,2020-11-05 13:30:12,5.75,38.92,70.11,75,59,6.67,broken clouds,0.0,0.0,ከለቻ Kelecha
-753,Morón,AR,2020-11-05 13:30:13,-34.65,-58.62,66.99,48,0,16.11,clear sky,0.0,0.0,Hotel Morón
-754,Safi,MA,2020-11-05 13:30:13,32.3,-9.24,66.13,74,100,22.46,overcast clouds,0.0,0.0,Hôtel Abda
-756,Lukang,TW,2020-11-05 13:30:14,24.06,120.44,73.99,83,40,6.93,scattered clouds,0.0,0.0,二鹿行館 Lu Kang Bed and Breakbast
-764,Harlingen,US,2020-11-05 13:30:18,26.19,-97.7,64.4,100,1,4.7,clear sky,0.0,0.0,Courtyard by Marriott Harlingen
-766,Presidencia Roque Sáenz Peña,AR,2020-11-05 13:30:19,-26.79,-60.44,79.5,31,4,8.75,clear sky,0.0,0.0,Hotel Aconcagua
-767,Luwuk,ID,2020-11-05 13:30:19,-0.95,122.79,79.29,74,3,1.59,clear sky,0.0,0.0,Hotel Santika Luwuk
-768,Tapes,BR,2020-11-05 13:30:19,-30.67,-51.4,67.87,69,51,15.61,broken clouds,0.0,0.0,Cabanas Camping Union
-770,Muroto-misakicho,JP,2020-11-05 13:30:20,33.28,134.15,62.98,59,2,1.41,clear sky,0.0,0.0,Oota Ryokan
-773,Tomohon,ID,2020-11-05 13:30:22,1.33,124.84,77.0,94,20,1.12,few clouds,0.0,0.0,Gardenia Country Inn
-774,Yala,TH,2020-11-05 13:30:22,6.33,101.25,75.38,90,100,0.89,overcast clouds,0.0,0.0,งานแต่ง Murnee - Wahid
-775,Kampong Thom,KH,2020-11-05 13:25:36,12.71,104.89,77.5,83,100,5.12,overcast clouds,0.0,0.0,Sambor Village Hotel
-781,Limbang,MY,2020-11-05 13:30:25,4.75,115.0,77.0,94,75,2.24,broken clouds,0.0,0.0,Purnama Hotel
-782,Mitsamiouli,KM,2020-11-05 13:30:26,-11.38,43.28,79.7,70,46,4.09,scattered clouds,0.0,0.0,Foyer ADM
-788,Thanh Hoa,VN,2020-11-05 13:30:27,19.8,105.77,72.61,87,80,2.48,broken clouds,0.0,0.0,KHÁCH SẠN NGỌC LY 8
-789,Tecpan,GT,2020-11-05 13:30:28,14.76,-90.99,64.99,93,75,9.17,light intensity drizzle,0.0,0.0,San Ricardo Restaurante y Hotel
-790,Hunterville,NZ,2020-11-05 13:30:28,-39.93,175.57,60.01,90,87,2.64,overcast clouds,0.0,0.0,Argyle Hotel
-794,Rio Grande,BR,2020-11-05 13:30:30,-32.03,-52.1,71.6,56,75,16.11,broken clouds,0.0,0.0,Hotel Atlântico Rio Grande
-795,Tiarei,PF,2020-11-05 13:30:31,-17.53,-149.33,78.8,74,75,12.75,broken clouds,0.0,0.0,Le Rocher de Tahiti
-798,Mananjary,MG,2020-11-05 13:30:32,-21.22,48.33,76.84,78,73,13.69,broken clouds,0.0,0.0,Vahiny Lodge
-813,Bambamarca,PE,2020-11-05 13:30:41,-6.68,-78.53,60.8,55,0,1.12,clear sky,0.0,0.0,Agrocentro Bambamarca
-815,Āsosa,ET,2020-11-05 13:30:42,10.07,34.53,76.08,70,0,3.2,clear sky,0.0,0.0,Blendana Hotel Assosa
-816,Lucea,JM,2020-11-05 13:30:43,18.45,-78.17,77.0,83,90,8.05,overcast clouds,0.0,0.0,Grand Palladium Jamaica Resort & Spa
-817,El Rincón,HN,2020-11-05 13:30:43,14.58,-87.93,62.6,93,97,0.43,overcast clouds,0.0,0.0,Finca Altamira
-823,Lethem,GY,2020-11-05 13:30:46,3.38,-59.8,77.0,94,20,11.41,few clouds,0.0,0.0,Savannah Inn
-824,Soledade,BR,2020-11-05 13:30:46,-28.82,-52.51,64.71,51,0,9.01,clear sky,0.0,0.0,Pousada Da Gringa
-825,Diego de Almagro,CL,2020-11-05 13:30:46,-26.37,-70.05,76.82,22,0,6.67,clear sky,0.0,0.0,hotel luna del desierto
-827,Luján,AR,2020-11-05 13:30:47,-34.57,-59.1,69.01,51,4,8.01,clear sky,0.0,0.0,Hotel Biarritz
-842,Arrondissement d'Ajaccio,FR,2020-11-05 13:29:11,42.0,8.92,68.0,77,75,8.05,broken clouds,0.0,0.0,Sole E Monte
-860,Thai Binh,VN,2020-11-05 13:31:00,20.45,106.33,75.2,78,48,4.7,scattered clouds,0.0,0.0,Hội Liên Hiệp Phụ Nữ Tỉnh Thái Bình
-861,Laas,IT,2020-11-05 13:31:00,46.62,10.7,64.0,70,20,9.17,few clouds,0.0,0.0,Pension Feldgärtenhof
-874,Vallenar,CL,2020-11-05 13:31:04,-28.57,-70.76,74.35,36,0,5.3,clear sky,0.0,0.0,Humacao Bed & Breakfast
-880,Voh,NC,2020-11-05 13:31:05,-20.97,164.7,72.79,87,5,2.17,clear sky,0.0,0.0,Le gîte du Koniambo
-881,Gumia,IN,2020-11-05 13:31:06,23.78,85.82,70.74,40,8,4.0,clear sky,0.0,0.0,DJ Banti Hosir
-886,Samarai,PG,2020-11-05 13:31:07,-10.62,150.67,79.81,87,82,7.74,broken clouds,0.0,0.0,Nuli Sapi
-889,Tondano,ID,2020-11-05 13:31:08,1.3,124.91,77.0,94,20,1.12,few clouds,0.0,0.0,Villa Bella
-893,Pāsighāt,IN,2020-11-05 13:31:09,28.07,95.33,66.7,74,0,3.4,clear sky,0.0,0.0,Siang Guest House
-894,Sechura,PE,2020-11-05 13:31:09,-5.56,-80.82,67.51,69,39,9.13,scattered clouds,0.0,0.0,Hospedaje Costa Bella
-898,Mashhad,IR,2020-11-05 13:31:10,36.3,59.61,64.4,20,0,6.93,clear sky,0.0,0.0,Almas 1 Hotel
-901,Santo Ângelo,BR,2020-11-05 13:29:48,-28.3,-54.26,70.0,36,6,5.99,clear sky,0.0,0.0,Hotel Nova Esperança Aberto 24h
-903,Eldorado,BR,2020-11-05 13:31:11,-23.79,-54.28,79.02,46,0,8.25,clear sky,0.0,0.0,Villa Verde Hotel
-911,Khanu Woralaksaburi,TH,2020-11-05 13:31:13,16.06,99.86,75.88,85,2,3.8,clear sky,0.0,0.0,River Green Resort
-913,Yazman,PK,2020-11-05 13:31:13,29.12,71.74,72.27,21,0,2.8,clear sky,0.0,0.0,Jamal sons showroom
-918,La Serena,CL,2020-11-05 13:29:38,-29.91,-71.25,60.8,72,0,4.7,clear sky,0.0,0.0,Hotel y Cabañas Mar De Ensueño
-919,Hervey Bay,AU,2020-11-05 13:31:16,-25.3,152.85,77.0,80,0,3.0,clear sky,0.0,0.0,Shelly Bay Resort
-920,Bima,ID,2020-11-05 13:31:16,-8.47,118.72,79.83,82,4,3.31,clear sky,0.0,0.0,Lambitu Hotel
-924,Neuquén,AR,2020-11-05 13:27:24,-38.95,-68.06,62.6,33,0,13.87,clear sky,0.0,0.0,Hotel del Comahue
-928,Oudtshoorn,ZA,2020-11-05 13:31:18,-33.59,22.2,69.8,88,20,6.93,few clouds,0.0,0.0,Earthbound Guest House
-929,Darlawn,IN,2020-11-05 13:31:18,24.02,92.9,60.48,100,0,1.14,clear sky,0.0,0.0,BNRGSK BUILDING
-930,Koulamoutou,GA,2020-11-05 13:31:19,-1.13,12.47,71.6,100,75,2.68,light rain,0.0,0.0,Motel Biki
-931,Songyang,CN,2020-11-05 13:31:19,34.46,113.03,62.01,99,83,2.04,broken clouds,0.0,0.0,Songshan Dihao Hotel
-932,Rincon,US,2020-11-05 13:30:16,32.3,-81.24,62.6,77,75,4.7,broken clouds,0.0,0.0,Bent tree subdivision
-936,Sochi,RU,2020-11-05 13:30:41,43.6,39.73,66.2,77,40,4.47,scattered clouds,0.0,0.0,Bounty Hotel
-940,Fomboni,KM,2020-11-05 13:31:22,-12.28,43.74,79.97,69,0,7.02,clear sky,0.0,0.0,Auberge les abou
-944,Japura,ID,2020-11-05 13:31:23,-0.32,102.35,75.78,93,88,2.91,overcast clouds,0.0,0.0,Rumah mbah Jamah
-947,Viedma,AR,2020-11-05 13:31:24,-40.81,-63.0,70.45,23,0,15.32,clear sky,0.0,0.0,Hotel Cristal
-951,Kifrī,IQ,2020-11-05 13:31:25,34.7,44.97,78.84,19,95,8.55,overcast clouds,0.0,0.0,میزان کفری
-955,Kui Buri,TH,2020-11-05 13:31:26,12.08,99.85,78.04,83,100,5.03,overcast clouds,0.0,0.0,ริสต้า รีสอร์ท
-958,Santoña,ES,2020-11-05 13:31:26,43.44,-3.46,60.8,63,0,13.87,clear sky,0.0,0.0,Playamar
-963,Anguillara Sabazia,IT,2020-11-05 13:31:27,42.09,12.28,68.0,64,20,3.36,few clouds,0.0,0.0,Country Relais I Due Laghi
-964,Coahuayana Viejo,MX,2020-11-05 13:31:28,18.73,-103.68,69.8,49,40,23.04,scattered clouds,0.0,0.0,Hotel Los Arcos
-967,Puerto Madero,MX,2020-11-05 13:31:28,14.72,-92.42,77.0,100,75,7.11,broken clouds,0.0,0.0,Hotel La Central
-970,Sarakhs,IR,2020-11-05 13:31:29,36.54,61.16,71.6,15,0,4.63,clear sky,0.0,0.0,Sarakhs Abrisham Hotel
-971,Denpasar,ID,2020-11-05 13:30:19,-8.65,115.22,79.93,84,65,3.89,broken clouds,0.0,0.0,ASTON Denpasar Hotel & Convention Center
-975,Portland,US,2020-11-05 13:21:37,45.52,-122.68,60.01,91,100,1.01,overcast clouds,0.0,0.0,The Bidwell Marriott Portland
-976,Arica,CL,2020-11-05 13:30:13,-18.48,-70.3,64.4,68,0,8.05,clear sky,0.0,0.0,Hostal Jardin Del Sol
-986,Ben Gardane,TN,2020-11-05 13:31:34,33.14,11.22,78.06,45,95,10.8,overcast clouds,0.0,0.0,hotel rayes
-989,Lufilufi,WS,2020-11-05 13:31:35,-13.87,-171.6,77.0,94,75,4.7,broken clouds,0.0,0.0,Leuaina Beach Resort and Spa
-991,Antofagasta,CL,2020-11-05 13:28:02,-23.65,-70.4,60.8,67,40,9.17,scattered clouds,0.0,0.0,Holiday Inn Express Antofagasta
-994,Alice Springs,AU,2020-11-05 13:31:36,-23.7,133.88,73.4,25,0,9.17,clear sky,0.0,0.0,Desert Palms Alice Springs
-995,Willowmore,ZA,2020-11-05 13:31:36,-33.29,23.49,76.46,40,100,17.09,overcast clouds,0.0,0.0,Jumper's Place
-997,Anzio,IT,2020-11-05 13:31:37,41.49,12.62,68.0,77,75,3.36,broken clouds,0.0,0.0,Hotel Lido Garda
-999,Villazón,BO,2020-11-05 13:31:37,-22.09,-65.59,60.21,33,0,1.16,clear sky,0.0,0.0,La Candelaria
-1004,Ibrā’,OM,2020-11-05 13:31:39,22.69,58.53,76.33,19,0,8.55,clear sky,0.0,0.0,مزرعة راحة النفوس المنزفة
-1012,Black River,JM,2020-11-05 13:31:41,18.03,-77.85,77.0,83,90,8.05,overcast clouds,0.0,0.0,Idlers' Rest Beach Hotel
-1019,Galveston,US,2020-11-05 13:31:42,29.37,-94.97,73.0,73,75,6.93,broken clouds,0.0,0.0,Comfort Inn & Suites Texas City
+ID,City,Country,Latitude,Longitude,Time,Description,Max Temp,Humidity,Wind Speed,Cloudiness,Rain,Snow,Hotel
+2,Butaritari,KI,3.0707,172.7902,2021-01-09 20:45:49,light rain,81.7,80,21.07,62,0.22,0.0,Isles Sunset Lodge
+26,San Policarpo,PH,12.1791,125.5072,2021-01-09 20:45:54,heavy intensity rain,80.11,85,19.33,100,5.0126,0.0,JM Lodge
+39,Gouyave,GD,12.1646,-61.7296,2021-01-09 20:45:57,light rain,84.2,74,23.02,20,0.23,0.0,Rumboat Retreat
+46,Kruisfontein,ZA,-34.0033,24.7314,2021-01-09 20:45:59,light rain,70.0,81,5.01,65,0.13,0.0,Oyster Bay House Rental
+51,Ipixuna,BR,-1.7625,-48.8043,2021-01-09 20:46:00,light rain,86.0,74,9.22,40,0.83,0.0,Casa da Oscarina
+78,Waingapu,ID,-9.6567,120.2641,2021-01-09 20:46:06,very heavy rain,79.79,78,2.08,99,24.412,0.0,Pondok Wisata Elim
+117,Bambanglipuro,ID,-7.95,110.2833,2021-01-09 20:46:15,moderate rain,77.11,84,3.11,77,3.5484,0.0,Puri Brata
+132,Sambava,MG,-14.2667,50.1667,2021-01-09 20:42:15,light rain,76.5,80,4.99,3,0.16,0.0,Melrose
+176,Poum,NC,-20.2333,164.0167,2021-01-09 20:46:28,moderate rain,82.45,80,9.75,100,1.29,0.0,Gîte kajeon
+196,Bungu,TZ,-7.6337,39.0582,2021-01-09 20:46:32,light rain,75.04,92,6.15,100,0.28,0.0,Jaja Lodge
+215,Shakawe,BW,-18.3667,21.85,2021-01-09 20:46:36,light rain,74.25,77,4.09,96,0.2,0.0,Ditlhapi Guest House
+227,Kahului,US,20.8947,-156.47,2021-01-09 20:46:39,light rain,78.8,65,6.91,40,0.17,0.0,Maui Seaside Hotel
+229,Vao,NC,-22.6667,167.4833,2021-01-09 20:46:34,heavy intensity rain,78.33,89,15.41,100,5.845,0.0,Hotel Kou-Bugny
+240,Muisne,EC,0.6,-80.0333,2021-01-09 20:46:41,light rain,79.25,78,8.9,23,0.64,0.0,Quinta Samay
+266,Mahibadhoo,MV,3.7833,72.9667,2021-01-09 20:46:48,light rain,81.25,77,8.57,100,0.11,0.0,Omadhoo Inn
+278,Salta,AR,-24.7859,-65.4117,2021-01-09 20:42:30,moderate rain,80.6,54,9.22,40,1.24,0.0,Hotel Alejandro I
+299,Mâncio Lima,BR,-7.6142,-72.8958,2021-01-09 20:46:56,moderate rain,89.6,66,2.3,40,1.24,0.0,Hotel e Distribuidora Voyage
+307,Mackay,AU,-21.15,149.2,2021-01-09 20:44:31,light rain,73.0,94,17.27,90,0.13,0.0,International Lodge Motel
+328,Kalangala,UG,-0.3089,32.225,2021-01-09 20:47:02,light rain,74.1,74,15.97,97,0.17,0.0,Ssese Habitat Resort
+339,Ambilobe,MG,-13.2,49.05,2021-01-09 20:47:05,moderate rain,74.35,93,0.94,20,1.33,0.0,Hôtel & Restaurant DIANA Ambilobe
+370,Vanimo,PG,-2.6741,141.3028,2021-01-09 20:47:11,moderate rain,77.52,85,3.31,100,1.01,0.0,Vahmoneh Lodge Vanimo
+379,Kroya,ID,-7.6331,109.2461,2021-01-09 20:47:14,moderate rain,77.86,85,3.36,94,1.5118,0.0,RUSTANTO Fam
+380,Matara,LK,5.9485,80.5353,2021-01-09 20:46:43,heavy intensity rain,73.62,92,6.29,100,6.7388,0.0,Amaloh Boutique Resort
+385,Antalaha,MG,-14.9003,50.2788,2021-01-09 20:47:15,light rain,75.24,86,4.05,2,0.13,0.0,Hotel Vitasoa
+388,Grenville,GD,12.1167,-61.6167,2021-01-09 20:47:01,light rain,84.2,74,23.02,20,0.31,0.0,Valley Breeze Guest House
+389,Sibolga,ID,1.7427,98.7792,2021-01-09 20:46:57,light rain,75.16,87,2.75,100,0.73,0.0,Hotel Syariah CN Darussalam
+413,Puerto Escondido,MX,15.85,-97.0667,2021-01-09 20:47:21,light rain,80.6,69,4.61,40,0.37,0.0,Aldea del Bazar Hotel and Spa
+417,Carupano,VE,10.6678,-63.2585,2021-01-09 20:47:22,light rain,78.71,86,11.07,76,0.71,0.0,Hotel La dorada
+448,Departamento de Maldonado,UY,-34.6667,-54.9167,2021-01-09 20:47:29,light rain,72.0,68,10.36,75,0.3,0.0,La Cimarrona
+452,Ambanja,MG,-13.6833,48.45,2021-01-09 20:47:30,moderate rain,75.42,89,2.46,69,1.06,0.0,Hotel Salama and Fast Food
+453,Padang,ID,-0.9492,100.3543,2021-01-09 20:46:46,moderate rain,80.6,78,2.3,75,2.17,0.0,Mercure Padang
+459,Fayaoué,NC,-20.65,166.5333,2021-01-09 20:47:31,moderate rain,78.22,92,17.83,100,1.8204,0.0,Chez Dydyce Guesthouse
+460,Ixtapa,MX,20.7,-105.2,2021-01-09 20:47:18,light rain,73.4,78,11.5,75,0.2,0.0,Container Inn Puerto Vallarta
+490,Kavaratti,IN,10.5669,72.642,2021-01-09 20:47:29,light rain,82.44,74,5.37,100,0.26,0.0,Hotels in Lakshadweep Islands
+537,Governador Valadares,BR,-18.8511,-41.9494,2021-01-09 20:47:51,moderate rain,80.56,85,5.44,65,1.09,0.0,Hotel Panorama
+547,Kirakira,SB,-10.4544,161.9205,2021-01-09 20:47:53,moderate rain,82.56,76,2.98,99,1.36,0.0,SanBiz Lodge
+555,Miracema do Tocantins,BR,-9.5618,-48.3967,2021-01-09 20:47:55,light rain,79.27,78,2.89,100,0.2,0.0,Miami Apart Hotel
+559,Siavonga,ZM,-16.5382,28.7088,2021-01-09 20:47:55,light rain,78.26,78,3.49,100,0.92,0.0,Lavongora Waterfront Lodge
+562,Tete,MZ,-16.1564,33.5867,2021-01-09 20:47:56,light rain,84.2,79,6.04,75,0.44,0.0,Zambeze Paraíso Misterioso
+567,São Miguel do Araguaia,BR,-13.275,-50.1628,2021-01-09 20:47:57,moderate rain,82.11,75,6.93,69,3.158,0.0,Hotel Executivo Palace
+569,Tabou,CI,4.423,-7.3528,2021-01-09 20:47:57,light rain,78.82,86,7.11,14,0.44,0.0,hotêl doufoulougou
+606,São Félix do Xingu,BR,-6.6447,-51.995,2021-01-09 20:48:06,very heavy rain,83.37,71,3.56,100,23.679000000000002,0.0,Rio Xingu Camping
+632,Upata,VE,8.0086,-62.3989,2021-01-09 20:48:11,moderate rain,74.28,91,6.33,99,1.776,0.0,Posada Villa Nela
+651,Lindi,TZ,-10.0,39.7167,2021-01-09 20:48:15,light rain,78.8,83,20.71,75,0.81,0.0,Lindi paradise house
+659,Cuamba,MZ,-14.8031,36.5372,2021-01-09 20:48:17,light rain,71.78,90,1.59,100,0.31,0.0,Hotel Vision
+680,Dingle,PH,10.9995,122.6711,2021-01-09 20:46:55,light rain,74.53,92,12.77,100,0.2428,0.0,SEGAYA PROPERTY
+709,French Harbor,HN,16.35,-86.4333,2021-01-09 20:48:29,light rain,77.0,78,11.5,90,0.15,0.0,"Fantasy Island Beach Resort, Dive & Marina"
+724,Rondonópolis,BR,-16.4708,-54.6356,2021-01-09 20:48:32,light rain,89.56,52,2.13,42,0.205,0.0,Serras Hotel
+744,Bangolo,CI,7.0069,-7.475,2021-01-09 20:46:23,light rain,77.34,71,3.11,7,0.41,0.0,Résidence hôtel yekoula
+777,Manggar,ID,-2.8833,108.2667,2021-01-09 20:48:43,light rain,78.66,84,13.58,94,0.32,0.0,Guest Hotel
+785,Fougamou,GA,-1.2154,10.5838,2021-01-09 20:48:44,light rain,74.79,92,2.75,13,0.13,0.0,Résidence d'Hôtes Bapedy
+798,Mananjary,MG,-21.2167,48.3333,2021-01-09 20:48:48,light rain,76.19,88,4.83,85,0.21,0.0,Vahiny Lodge
+804,Trincomalee,LK,8.5711,81.2335,2021-01-09 20:47:01,moderate rain,76.91,87,2.62,100,1.68,0.0,Welcombe Hotel
+823,Lethem,GY,3.3803,-59.7968,2021-01-09 20:48:53,moderate rain,84.45,67,3.76,66,1.153,0.0,Savannah Inn
+824,Soledade,BR,-28.8183,-52.5103,2021-01-09 20:48:53,moderate rain,84.2,48,6.91,75,2.66,0.0,Pousada Da Gringa
+869,Rodrigues Alves,BR,-7.7379999999999995,-72.6509,2021-01-09 20:49:03,light rain,89.6,66,2.3,40,0.78,0.0,Pousada Aconchego
+886,Samarai,PG,-10.6167,150.6667,2021-01-09 20:47:24,light rain,82.49,76,6.96,100,0.22,0.0,Nuli Sapi
+895,Kasane,BW,-17.8167,25.15,2021-01-09 20:49:09,light rain,70.63,92,2.75,100,0.56,0.0,The Old House
+920,Bima,ID,-8.4667,118.7167,2021-01-09 20:46:32,light rain,77.5,84,0.89,99,0.12299999999999997,0.0,Lambitu Hotel
+921,Ciudad Bolivar,VE,8.1222,-63.5497,2021-01-09 20:49:16,moderate rain,83.26,66,10.78,45,2.68,0.0,Hotel Edi
+961,Point Pedro,LK,9.8167,80.2333,2021-01-09 20:49:26,moderate rain,78.13,86,6.64,100,1.1,0.0,Gtr homes
+962,Altamira,BR,-3.2033,-52.2064,2021-01-09 20:49:26,moderate rain,78.84,92,2.1,99,2.526,0.0,Requinte Hotel
+972,Kawalu,ID,-7.3817,108.2082,2021-01-09 20:46:55,moderate rain,74.21,87,0.49,100,1.8088,0.0,KOSAN UNGU UNSIK
+1003,Kuliyapitiya,LK,7.4688,80.0401,2021-01-09 20:49:35,moderate rain,75.2,94,3.44,20,1.33,0.0,Rest House
