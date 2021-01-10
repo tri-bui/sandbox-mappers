@@ -1,4 +1,4 @@
-# Weatherpy
+# Weather Mapping
 
 This miniproject explores working with the [OpenWeatherMap](https://openweathermap.org/api) and [Google Maps](https://cloud.google.com/maps-platform/) APIs.
 
