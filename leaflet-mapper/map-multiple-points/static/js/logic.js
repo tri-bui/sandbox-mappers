@@ -17,7 +17,7 @@ let cityData = cities;
 // Add a marker for each city to the map
 cityData.forEach(city => {
     L.circle(city.location, {
-        radius: city.population / 10,
+        radius: city.population / 20,
         color: 'red',
         fillColor: 'red',
         weight: 4
