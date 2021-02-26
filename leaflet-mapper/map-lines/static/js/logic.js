@@ -1,5 +1,5 @@
 // Map object with center of the U.S. and a zoom level of 4.5
-let map = L.map('itin-map').setView([38, -93], 4.5);
+let map = L.map('itin-map').setView([38, -93], 4);
 
 // Add tile layer to map
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -20,7 +20,7 @@ let route = [
     [30.1975, -97.6664],
     [43.6777, -79.6248],
     [40.6413, -73.7781]
-  ];
+];
 
 // Add a line for the route to the map
 L.polyline(route, {
