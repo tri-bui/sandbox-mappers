@@ -1,7 +1,7 @@
 /*** Map ***/
 
 // Map object
-let map = L.map('eq-map', {center: [30, 30], zoom: 2, layers: [streets]});
+let map = L.map('eq-map', {center: [35, 20], zoom: 2, layers: [streets]});
 
 // Add base layer and overlays to map
 L.control.layers(basemaps, overlays).addTo(map);
@@ -33,9 +33,9 @@ d3.json(earthquakes7d).then(data => {
 
         // Circle marker style
         let style = {
-            radius: (props.mag + 0.1) * 5,
+            radius: (props.mag + 0.1) * 4,
             color: getColor(props.mag),
-            fillOpacity: 1,
+            fillOpacity: 0.8,
             weight: 1,
             stroke: true
         }
@@ -57,7 +57,7 @@ let boundaries02 = 'https://raw.githubusercontent.com/fraxen/tectonicplates/mast
 // Add boundary layer to map
 d3.json(boundaries02).then(data => {
     L.geoJSON(data, {
-        style: {color: 'red', weight: 4}, 
+        style: {color: 'red', weight: 2}, 
         onEachFeature: (feat, layer) => {
             layer.bindPopup(feat.properties.Name + ' Boundary');
         }
