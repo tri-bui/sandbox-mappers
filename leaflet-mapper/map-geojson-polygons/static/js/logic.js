@@ -27,23 +27,20 @@ let baseMaps = {
 
 // Map object with center of the Toronto and a zoom level of 11
 let map = L.map('nb-map', {center: [43.7, -79.3], zoom: 11, layers: [streets]});
-
-// Add base layer to map
-L.control.layers(baseMaps).addTo(map);
-
+L.control.layers(baseMaps).addTo(map); // layer control
 
 // Toronto neighborhood geoJSON data
-let neighborhoods = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/leaflet-practice/map-geojson-polygons/static/js/torontoNeighborhoods.json';
+let neighborhoods = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/leaflet-mapper/map-geojson-polygons/static/js/torontoNeighborhoods.json';
+
+// Polygon styling
+let polyStyle = {color: 'red', fillColor: 'yellow', weight: 4, opacity: 0.8};
 
 // Add Toronto neighborhoods to map
 d3.json(neighborhoods).then(data => {
-    L.geoJSON(data, {style: {
-        color: 'red',
-        fillColor: 'yellow',
-        weight: 4,
-        opacity: 0.8
-    }, onEachFeature: (feat, layer) => {
-        let props = feat.properties;
-        layer.bindPopup(`<h2>${props.AREA_NAME}</h2>`);
-    }}).addTo(map);
+    L.geoJSON(data, {
+        style: polyStyle, 
+        onEachFeature: (feat, layer) => {
+            layer.bindPopup(`<h2>${feat.properties.AREA_NAME}</h2>`);
+        }
+    }).addTo(map);
 });

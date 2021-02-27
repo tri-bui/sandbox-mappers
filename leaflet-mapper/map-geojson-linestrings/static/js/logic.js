@@ -28,7 +28,7 @@ let baseMaps = {
 // Map object with center of the Toronto and a zoom level of 3
 let map = L.map('route-map', {center: [44.0, -80.0], zoom: 3, layers: [light]});
 
-// Add base layer to map
+// Add layer control to map
 L.control.layers(baseMaps).addTo(map);
 
 
