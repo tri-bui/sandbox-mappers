@@ -28,12 +28,12 @@ let baseMaps = {
 // Map object with center of the world and a zoom level of 2
 let map = L.map('airport-map', {center: [30, 30], zoom: 2, layers: [streets]});
 
-// Add base layer to map
+// Add layer control to map
 L.control.layers(baseMaps).addTo(map);
 
 
 // Airport geoJSON data
-let airportData = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/leaflet-practice/map-external-geojson/static/js/majorAirports.json';
+let airportData = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/leaflet-mapper/map-external-geojson/static/js/majorAirports.json';
 
 // Add airports to map
 d3.json(airportData).then(data => {
