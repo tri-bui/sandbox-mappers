@@ -10,11 +10,11 @@ L.control.layers(basemaps, overlays).addTo(map);
 /*** Earthquake Layer ***/
 
 // Earthquake geoJSON data
-let earthquakes7d = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson';
+let eq7d = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson';
 
 /**
  * Get a color code for the marker depending on the earthquake magnitude.
- * @param {number} mag - earthquake magnitude
+ * @param {num} mag - earthquake magnitude
  * @return {str} - color hex code
  */
 function getColor(mag) {
@@ -27,22 +27,22 @@ function getColor(mag) {
 }
 
 // Add earthquake layer to map
-d3.json(earthquakes7d).then(data => {
+d3.json(eq7d).then(data => {
     L.geoJSON(data, {pointToLayer: (feat, coords) => {
         let props = feat.properties;
 
         // Circle marker style
         let style = {
-            radius: (props.mag + 0.1) * 4,
+            radius: (props.mag + 0.1) * 1e5,
             color: getColor(props.mag),
-            fillOpacity: 0.8,
+            fillOpacity: 0.75,
             weight: 1,
             stroke: true
         }
 
-        return L.circleMarker(coords, style).bindPopup(
-            `<h2 align="center">Magnitude: ${props.mag}</h2><hr />` +
-            `<h3>Location: ${props.place}</h3>`
+        return L.circle(coords, style).bindPopup(
+            `<h6 align="center">Magnitude: ${props.mag}</h6><hr />` +
+            `<h6>Location: ${props.place}</h6>`
         );
     }}).addTo(earthquakes); // add data to earthquake layer
     earthquakes.addTo(map); // add earthquake layer to map
@@ -52,16 +52,17 @@ d3.json(earthquakes7d).then(data => {
 /*** Boundary Layer ***/
 
 // Tectonic plate geoJSON data
-let boundaries02 = 'https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json';
+// let tp02 = 'https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json';
+let tp02 = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/earthquake-mapper/static/js/boundaries.json';
 
 // Add boundary layer to map
-d3.json(boundaries02).then(data => {
+d3.json(tp02).then(data => {
     L.geoJSON(data, {
         style: {color: 'red', weight: 2}, 
         onEachFeature: (feat, layer) => {
-            layer.bindPopup(feat.properties.Name + ' Boundary');
+            layer.bindPopup('<h5>' + feat.properties.Name + ' Boundary</h5>');
         }
-    }).addTo(boundaries);
+    }).addTo(boundaries); // add data to boundary layer
     boundaries.addTo(map); // add boundary layer to map
 });
 
@@ -76,7 +77,7 @@ legend.onAdd = () => {
 
     // Create HTML div for legend
     let div = L.DomUtil.create('div', 'legend');
-    div.innerHTML = '<h6 align="center">Earthquake<br />Magnitude</h6>';
+    div.innerHTML = '<h6 align="center">Magnitude</h6>';
 
     // Create legend labels
     for (let m = 0; m <= 5; m++) {
