@@ -33,7 +33,7 @@ d3.json(eq7d).then(data => {
 
         // Circle marker style
         let style = {
-            radius: (props.mag + 0.1) * 1e5,
+            radius: (props.mag > 0 ? props.mag : 0.01) * 1e5,
             color: getColor(props.mag),
             fillOpacity: 0.75,
             weight: 1,
