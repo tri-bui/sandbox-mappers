@@ -3,7 +3,7 @@
 // Map object
 let map = L.map('eq-map', {center: [35, 20], zoom: 2, layers: [streets]});
 
-// Add base layer and overlays to map
+// Add layer control to map
 L.control.layers(basemaps, overlays).addTo(map);
 
 
@@ -62,8 +62,7 @@ d3.json(tp02).then(data => {
         onEachFeature: (feat, layer) => {
             layer.bindPopup('<h5>' + feat.properties.Name + ' Boundary</h5>');
         }
-    }).addTo(boundaries); // add data to boundary layer
-    boundaries.addTo(map); // add boundary layer to map
+    }).addTo(boundaries);
 });
 
 
