@@ -33,7 +33,7 @@ L.control.layers(baseMaps).addTo(map);
 
 
 // Toronto routes geoJSON data
-let routes = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/leaflet-mapper/map-geojson-linestrings/static/js/torontoRoutes.json';
+let routes = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/leaflet-mapper/7-geojson-linestrings/static/js/torontoRoutes.json';
 
 // Line styling
 let lineStyle = {color: 'yellow', weight: 2, opacity: 0.5};

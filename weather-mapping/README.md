@@ -3,7 +3,7 @@
 This miniproject explores working with the [OpenWeatherMap](https://openweathermap.org/api) and [Google Maps](https://cloud.google.com/maps-platform/) APIs.
 
 
-### Files
+## Files
 
 ##### `1-collect.ipynb` - collect weather data for at least 1000 cities around the world
 - 3500 lat-long coordinates are randomly generated
@@ -50,8 +50,9 @@ This miniproject explores working with the [OpenWeatherMap](https://openweatherm
     - This file was output from notebook 3
 
 
-### Requirements
+## Requirements
 - Python 3
-- Python packages: requests, scipy, numpy, pandas, matplotlib, citipy, gmaps
+- Python packages: Requests, Scipy, Numpy, Pandas, Matplotlib, Citipy, Gmaps
+- Jupyter notebook/lab
 - API keys for the [OpenWeatherMap](https://openweathermap.org/api) and [Google Maps](https://cloud.google.com/maps-platform) APIs
 - Google Maps APIs to enable: [Maps Javascript](https://developers.google.com/maps/documentation/javascript), [Places API](https://developers.google.com/places/web-service), [Directions API](https://developers.google.com/maps/documentation/directions)

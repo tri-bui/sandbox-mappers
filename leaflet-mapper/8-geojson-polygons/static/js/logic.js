@@ -30,7 +30,7 @@ let map = L.map('nb-map', {center: [43.7, -79.3], zoom: 11, layers: [streets]});
 L.control.layers(baseMaps).addTo(map); // layer control
 
 // Toronto neighborhood geoJSON data
-let neighborhoods = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/leaflet-mapper/map-geojson-polygons/static/js/torontoNeighborhoods.json';
+let neighborhoods = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/leaflet-mapper/8-geojson-polygons/static/js/torontoNeighborhoods.json';
 
 // Polygon styling
 let polyStyle = {color: 'red', fillColor: 'yellow', weight: 4, opacity: 0.8};

@@ -33,7 +33,7 @@ L.control.layers(baseMaps).addTo(map);
 
 
 // Airport geoJSON data
-let airportData = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/leaflet-mapper/map-external-geojson/static/js/majorAirports.json';
+let airportData = 'https://raw.githubusercontent.com/tri-bui/sandbox-mappers/main/leaflet-mapper/6-external-geojson/static/js/majorAirports.json';
 
 // Add airports to map
 d3.json(airportData).then(data => {
