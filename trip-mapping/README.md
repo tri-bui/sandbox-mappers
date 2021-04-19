@@ -12,27 +12,27 @@ This miniproject explores working with the [OpenWeatherMap](https://openweatherm
 - Weather data was pulled for these 1023 cities from the API
 - The weather data was saved as `weather.csv` into the `data/` directory
 
-##### `2-visualize.ipynb` - visualize 6 different weather features for the weather data from `data/weather.csv`
-- Weather features: `max temp`, `humidity`, `cloudiness`, `wind speed`, `rain`, and `snow`
-- Each weather feature was ploted against the `latitude` in a scatter plot, including a regression line
-- The plots were repeated for the north and south hemispheres separately
-- A geographic heatmap was created for each weather feature
+##### `2-visualize.ipynb` - visualize 6 different weather variables for the weather data from `data/weather.csv`
+- Weather variables: `Max Temp`, `Humidity`, `Wind Speed`, `Cloudiness`, `Rain`, and `Snow`
+- Each weather variable was ploted against the `latitude` in a scatter plot, with a regression line
+- The plots were plotted again separately for the north and south hemispheres
+- A geographic heatmap was created for each weather variable
 
 ##### `3-search.ipynb` - find hotels based on the user's weather preference
-- The user is prompted for their preferred minimum/maximum temperatures and rain/snow preference.
-- The values entered for these values were: 70 (min temp), 90 (max temp), yes (rain) and no (snow)
-- The weather data from `data/weather.csv` was filtered based on these weather preferences, leaving 70 cities
-- 64 of these cities had a nearby hotel
+- The user is prompted for their preferred minimum/maximum temperatures and rain/snow preference
+- The values entered for these values were: 70 (min temp), 80 (max temp), no (rain), and no (snow)
+- The weather data from `data/weather.csv` was filtered based on these weather preferences, leaving 214 cities
+- 194 of these cities had a nearby hotel
 - These cities were displayed on a geographic heatmap with popup information
 - The hotel data was saved as `hotels.csv` into the `data/` directory
 
 ##### `4-create` - create a travel itinerary based on the user's weather preference
-- The user is prompted for their preferred minimum/maximum temperatures and rain/snow preference.
-- The values entered for these values were: 75 (min temp), 85 (max temp), yes (rain) and no (snow)
-- The hotel data from `data/hotels.csv` was filtered based on these weather preferences, leaving 46 cities
+- The user is prompted for their preferred minimum/maximum temperatures and rain/snow preference
+- The values entered for these values were: 76 (min temp), 78 (max temp), no (rain), and no (snow)
+- The hotel data from `data/hotels.csv` was filtered based on these weather preferences, leaving 61 cities
 - These cities were displayed on a geographic heatmap with popup information
-- A travel itinerary was created consisting of 4 Brazilian cities: Altamira, São Félix do Xingu, Miracema do Tocantins, and São Miguel do Araguaia
-- These 4 cities were displayed on a map with a route going from Altamira to São Félix do Xingu to Miracema do Tocantins to São Miguel do Araguaia
+- A travel itinerary was created consisting of 4 Brazilian cities: "Miracema do Tocantins", "Carutapera", "Cabedelo", and "Pitimbu"
+- These 4 cities were displayed on a map with a route going from "Miracema do Tocantins" to "Carutapera" to "Cabedelo" to "Pitimbu"
 
 ##### `config.py` (not included) - store API keys for OpenWeatherMap and Google Maps
 - Go through the following steps in order to run the notebooks
@@ -40,13 +40,13 @@ This miniproject explores working with the [OpenWeatherMap](https://openweatherm
 - Create an account at [Google Maps](https://cloud.google.com/maps-platform/), create a new project, and get an API key
 - In the Google Maps project, enable billing and enable the APIs listed in `Requirements` below
 - Create a file named `config.py` 
-- In `config.py`, store the OpenWeatherMap API key in a variable called `OWM_API_KEY`
-- In `config.py`, store the Google Maps API key in a variable called `GMAPS_API_KEY`
+- In `config.py`, store the OpenWeatherMap API key in a variable called `OWM_KEY`
+- In `config.py`, store the Google Maps API key in a variable called `GMAPS_KEY`
 
 ##### `data/` - directory to hold data files
 - `weather.csv` - weather data for 1023 cities pulled from OpenWeatherMap
     - This file was output from notebook 1
-- `hotels.csv` - hotel data for 64 cities pulled from Google Maps (Places API)
+- `hotels.csv` - hotel data for 194 cities pulled from Google Maps (Places API)
     - This file was output from notebook 3
 
 
