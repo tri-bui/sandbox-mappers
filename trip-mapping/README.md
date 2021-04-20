@@ -48,6 +48,13 @@ This miniproject explores working with the [OpenWeatherMap](https://openweatherm
     - This file was output from notebook 1
 - `hotels.csv` - hotel data for 194 cities pulled from Google Maps (Places API)
     - This file was output from notebook 3
+    
+##### `imgs/` - directory to hold plots and maps generated from the analysis
+- `heatmaps/` - contains the 6 weather heatmaps: `cloudiness.png`, `humidity.png`, `max_temp.png`, `rain.png`, `snow.png`, and `wind_speed.png` (from notebook 2)
+- `hemisphere_weather.png` - scatter subplots with regression lines comparing the weather between the northern and southern hemispheres (from notebook 2)
+- `travel_destinations.png` - map showing travel destinations with a maximum temperature between 76 and 78 degrees Fahrenheit, no rain, and no snow (from notebook 4)
+- `brazil_itinerary.png` - map showing a travel itinerary with 4 cities in Brazil (from notebook 4)
+- `brazil_cities.png` - map showing the Brazilian cities in the travel itinerary, except for Cabedelo, which is covered (from notebook 4)
 
 
 ## Requirements
